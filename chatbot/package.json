@@ -1,5 +1,5 @@
 {
-  "name": "poke",
+  "name": "chatbot",
   "version": "0.0.0",
   "private": true,
   "author": "Go Takagi <takagi@shimastripe.com>",
@@ -7,9 +7,8 @@
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
-    "hubot-google-images": "^0.2.6",
-    "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.2.0",
+    "hubot-proxy": "git://github.com/shimastripe/hubot-proxy.git",
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "^2.17.2",
     "hubot-shell": "^1.0.2"

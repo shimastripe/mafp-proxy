@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+
+export HUBOT_SLACK_BOTNAME=
+export HUBOT_SLACK_TEAM=
+export HUBOT_SLACK_TOKEN=
+
+export PORT=2000
+export HUBOT_PROXY_MODE=proxy
+export CHATBOT_URL=http://localhost:3000
+
+exec node_modules/.bin/hubot -a "proxy" "$@"

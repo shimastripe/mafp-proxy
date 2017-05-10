@@ -94,7 +94,7 @@ module.exports = class ProxyMessage
 
   isFalsePositiveWarning: (warning, query)->
     FalsePositiveWarning.find query
-    .then (docs)-> [warning, docs.length is 0]
+    .then (docs)-> [warning, docs.length isnt 0]
 
   formatMessage: (msg)->
     num = "#{msg.lineno}"

@@ -9,8 +9,16 @@ export HUBOT_SLACK_BOTNAME=
 export HUBOT_SLACK_TEAM=
 export HUBOT_SLACK_TOKEN=
 
+## receiver
 export PORT=3000
 export HUBOT_PROXY_MODE=chat
 export PROXYCHATBOT_URL=http://localhost:2000
+
+## mongodb
+export MONGODB_URI=mongodb://localhost/local_hubot
+
+## github
+export GITHUB_TOKEN=
+export GITHUB_CLONE_URL=
 
 exec node_modules/.bin/hubot -a "proxy" "$@"

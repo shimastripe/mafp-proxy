@@ -2,6 +2,7 @@ node_modules
 .DS_Store*
 .hubot_history
 chatbot/bin/hubot-local
+chatbot/tmp/
 proxychatbot/bin/hubot-local
 
 # Added by gemignore. Snippet 'Global/macOS'

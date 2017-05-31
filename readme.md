@@ -20,6 +20,13 @@ $ cd proxychatbot
 $ ./bin/hubot -a proxy
 ```
 
+### Usage
+
+```
+(Slack Channel) analysis checkstyle
+(Bot) Execute analysis of checkstyle...
+```
+
 ## Configuration
 
 ### ChatBot
